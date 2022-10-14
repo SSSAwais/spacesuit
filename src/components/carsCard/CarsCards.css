@@ -47,6 +47,8 @@ span.card--favourite--icon {
   text-align: end;
   margin-bottom: 0px;
   padding-top: 9px;
+height:40px;
+overflow:hidden;
 }
 
 .name_section p {
