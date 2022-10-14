@@ -1,0 +1,32 @@
+
+.checkout .container-fluid,
+.Categorypage--page .container-fluid,
+.gensil_wrapper .container-fluid,
+.home--cars--catagories .container-fluid {
+  padding: 0 50px !important;
+}
+@media screen and (max-width: 1200px) {
+  .checkout .container-fluid,
+  .Categorypage--page .container-fluid,
+  .gensil_wrapper .container-fluid,
+  .home--cars--catagories .container-fluid {
+    padding: 15px 30px !important;
+  }
+}
+
+@media screen and (max-width: 860px) {
+  .checkout .container-fluid,
+  .Categorypage--page .container-fluid,
+  .gensil_wrapper .container-fluid,
+  .home--cars--catagories .container-fluid {
+    padding: 15px 20px !important;
+  }
+}
+@media screen and (max-width: 515px) {
+  .checkout .container-fluid,
+  .Categorypage--page .container-fluid,
+  .gensil_wrapper .container-fluid,
+  .home--cars--catagories .container-fluid {
+    padding: 10px 20px !important;
+  }
+}

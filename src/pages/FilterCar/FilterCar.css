@@ -1,0 +1,277 @@
+.categy--page--sidebar--slide::-webkit-scrollbar {
+  width: 9px;
+}
+
+.categy--page--sidebar--slide::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+.categy--page--sidebar--slide::-webkit-scrollbar-thumb {
+  background-color: transparent;
+  border: 1px solid #f0863a;
+  border-radius: 20px;
+}
+
+
+
+
+
+.lisitng---slider---gr::before {
+  content: "=> ";
+  position: absolute;
+  top: 43%;
+  left: 9px;
+  width: 50px;
+  height: 50px;
+  background: black;
+  z-index: 9;
+  border-radius: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  cursor: pointer;
+}
+
+.categ--heroo {
+  background-image: url("../../assets/images/cate--bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  /* height: 450px; */
+  background-position: center center;
+  padding: 50px 0;
+  padding-bottom: 250px;
+}
+
+.cate---price--title {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 50px;
+  text-align: right;
+  color: #378ad7;
+  margin: 35px 0;
+  margin-bottom: 45px;
+}
+
+.Categorypage--page .category--listing {
+  margin-top: -200px;
+  flex-wrap: wrap;
+}
+
+
+
+.listin--item--wrapper .slick-prev:before {
+  opacity: 1;
+  font-size: 45px;
+  color: #378ad7;
+  position: absolute;
+  /* top: -85px; */
+  left: -18px;
+
+}
+
+.listin--item--wrapper .slick-next:before {
+  opacity: 1;
+  font-size: 45px;
+  color: #378ad7;
+  /* position: absolute; */
+  /* top: -85px;
+  left: -18px; */
+}
+
+
+.listin--item--wrapper .card_wrapper.--width:nth-child(5) {
+  margin-left: 0px;
+}
+
+.only--for--margin .slick-slide {
+  padding: 0 12px;
+}
+
+.cars--marging--none .slick-slide {
+  padding: 0 0 !important;
+}
+
+.only--for--margin .name_section h4 {
+  font-size: 20px;
+  height: 40px;
+  overflow: hidden;
+}
+
+.only--for--margin .slick-next {
+  right: -15px !important;
+}
+
+.only--for--margin .slick-slide img {
+  display: unset;
+}
+
+@media screen and (max-width : 1400px) {
+  .only--for--margin .card_button {
+    height: 40px;
+    width: 170px;
+  }
+
+  .cate---price--title {
+    font-size: 45px;
+    line-height: normal;
+    margin: 15px 0;
+    margin-bottom: 40px;
+  }
+}
+
+@media screen and (max-width : 1200px) {
+  .only--for--margin .card_button {
+    height: 35px;
+    width: 150px;
+  }
+
+  .only--for--margin .slick-next {
+    right: 0 !important;
+  }
+
+  .only--for--margin .slick-prev {
+    left: 0;
+  }
+
+  .only--for--margin .detail,
+  .only--for--margin .name_section {
+    padding: 0 16px !important;
+  }
+
+}
+
+@media screen and (max-width : 992px) {
+  .only--for--margin .name_section h4 {
+    font-size: 16px;
+  }
+
+  .categ--heroo {
+    padding: 40px 0;
+    padding-bottom: 200px;
+  }
+
+
+
+  .cars--marging--none .left_detail ul {
+    padding-left: 0 !important;
+  }
+}
+
+@media screen and (max-width : 860px) {
+  .only--for--margin .name_section h4 {
+    font-size: 14px;
+  }
+
+  .only--for--margin .slick-slide {
+    padding: 0 7px;
+  }
+
+}
+
+@media screen and (max-width : 768px) {
+  .categ--heroo .gensil_sec {
+    padding-top: 0;
+  }
+
+  .only--for--margin .detail,
+  .only--for--margin .name_section {
+    background-color: #ffff;
+  }
+
+  .listin--item--wrapper .slick-prev:before {
+    top: 15px;
+    left: -3px;
+    opacity: 0.5 !important;
+
+  }
+
+  .listin--item--wrapper .slick-next:before {
+    top: 15px;
+    right: -3px;
+    opacity: 0.5 !important;
+  }
+
+  .only--for--margin .below_section .varient_model {
+    background: #e2f1ff;
+    margin-bottom: 15px;
+  }
+
+  .only--for--margin .name_section h4 {
+    height: 30px;
+  }
+
+  .cate---price--title {
+    font-size: 30px;
+    line-height: normal;
+  }
+
+}
+
+@media screen and (max-width : 660px) {
+  .categ--heroo {
+    padding: 0px 0;
+    padding-bottom: 130px;
+  }
+
+  .Categorypage--page .category--listing {
+    margin-top: -115px;
+  }
+
+  .categ--heroo .key_section h3 {
+    font-size: 30px;
+    line-height: normal;
+  }
+
+
+
+  .only--for--margin .varient_model {
+    padding: 8px 10px;
+  }
+
+  .only--for--margin .right_detail p,
+  .only--for--margin .left_detail ul li,
+  .only--for--margin .first_item p,
+  .only--for--margin .second_item p,
+  .only--for--margin .third_item p,
+  .only--for--margin .fourth_item p {
+    font-size: 12px;
+    line-height: normal;
+  }
+
+  .only--for--margin .right_detail h6,
+  .only--for--margin .left_detail h6 {
+    font-size: 12px;
+    line-height: normal;
+  }
+
+  .only--for--margin .detail,
+  .only--for--margin .name_section {
+    padding-left: 10px !important;
+  }
+
+  .cate---price--title {
+    font-size: 25px;
+    line-height: normal;
+    margin: 0;
+    margin-bottom: 20px;
+  }
+
+  .only--for--margin .card_wrapper {
+    margin-bottom: 15px;
+  }
+
+  .card--cars--slider--dection .carImages img {
+    width: 100% !important;
+  }
+}
+
+@media screen and (max-width : 400px) {
+  .categ--heroo .key_section h3 {
+    font-size: 25px;
+  }
+
+}
